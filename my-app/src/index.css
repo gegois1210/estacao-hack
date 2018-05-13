@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/* .menu  {
+  background-color: blueviolet;
+  width: 100%;
+  height: 35px;
+} */
+/* .navbar navbar-inverse {
+  background-color: blueviolet;
+  width: 100%;
+  height: 40px;
+} */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(117, 4, 139);
+    display: flex;
+}
+
+li {
+    float: left;
+    display: flex;
+}
+
+li a {
+    /* display: block; */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: flex;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.logo{
+  text-decoration: none;
+  color: white;
+}
+
+
+.login{
+  left:100px;
+
+}
+
+.galeria {
+  margin:;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.foto{
+  position: absolute;
+  opacity: 0;
+  animation-name: animacao;
+  animation-duration:20s;
+  animation-iteration-count: infinite; 
+  width: 300px;
+  height: 400px;
+}
+@keyframes animacao{
+  25% {
+    opacity: 1;
+    transform: scale(1.1,1.1);
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.foto:nth-child(1){
+
+}
+.foto:nth-child(2){
+  animation-delay: 5s;
+
+  
+}
+.foto:nth-child(3){
+  animation-delay: 5s;
+}
+.foto:nth-child(4){
+  animation-delay: 10s;
+}
+.foto:nth-child(5){
+  animation-delay: 15s;
+}
